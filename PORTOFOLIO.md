@@ -111,6 +111,8 @@ pribadi saya.
     `evidence/dimas_5_docker-readonly.png`
 6.  Screenshot hasil `sha256sum -c` (OK):
     `evidence/dimas_6_sha256.png`
+7.  Screenshot exit code Docker (baca `exit=0`, tulis ditolak `exit=1`):
+    `evidence/dimas_7_exit-code.png`
 
 ## 6. Informasi GitHub
 
