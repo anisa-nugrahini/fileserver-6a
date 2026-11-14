@@ -4,14 +4,14 @@
 
 ## 1. Identitas Mahasiswa
 
-  Keterangan            Isi
-  --------------------- ------------------------------------------
-  Nama                  Dimas Dwi Surya
-  NIM                   2510512196
-  Kelas / Kelompok      E / Kelompok 02
-  Mata Kuliah           Sistem Operasi
-  Tanggung Jawab        Monitoring, Log, Laporan, dan Docker
-  Repository Kelompok   https://github.com/kel2-so/fileserver-6a
+| Keterangan | Isi |
+|---|---|
+| Nama | Dimas Dwi Surya |
+| NIM | 2510512196 |
+| Kelas / Kelompok | E / Kelompok 02 |
+| Mata Kuliah | Sistem Operasi |
+| Tanggung Jawab | Monitoring, Log, Laporan, dan Docker |
+| Repository Kelompok | https://github.com/kel2-so/fileserver-6a |
 
 ## 2. Deskripsi Tanggung Jawab
 
@@ -89,21 +89,10 @@ mount read-only, lalu memverifikasi integritas laporan dengan
 
 ## 4. Skenario Pengujian
 
-  ---------------------------------------------------------------------------------------------------------
-  Jenis Pengujian         Skenario                Hasil Aktual
-  ----------------------- ----------------------- ---------------------------------------------------------
-  Positif (+)             Layanan aktif           Berhasil. `fs-check.sh` menampilkan `OK smbd aktif`,
-                          terdeteksi, aktivitas   log uji akses tercatat 3 baris, dan Docker berhasil
-                          pada log tercatat, dan  membaca `laporan.txt` dari mount read-only.
-                          Docker berhasil         
-                          membaca laporan.        
-
-  Negatif (-)             Layanan yang berhenti   Terdeteksi dan ditolak. Setelah `smbd` dihentikan,
-                          terdeteksi dan          `fs-check.sh` menampilkan `ERROR smbd tidak aktif`.
-                          penulisan laporan       Penulisan lewat Docker read-only ditolak dengan pesan
-                          melalui Docker          `Read-only file system` dan `sha256sum -c` tetap `OK`.
-                          read-only ditolak.      
-  ---------------------------------------------------------------------------------------------------------
+| Jenis Pengujian | Skenario | Hasil Aktual |
+|---|---|---|
+| Positif (+) | Layanan aktif terdeteksi, aktivitas pada log tercatat, dan Docker berhasil membaca laporan. | Berhasil. `fs-check.sh` menampilkan `OK smbd aktif`, log uji akses tercatat 3 baris, dan Docker berhasil membaca `laporan.txt` dari mount read-only. |
+| Negatif (-) | Layanan yang berhenti terdeteksi dan penulisan laporan melalui Docker read-only ditolak. | Terdeteksi dan ditolak. Setelah `smbd` dihentikan, `fs-check.sh` menampilkan `ERROR smbd tidak aktif`. Penulisan lewat Docker read-only ditolak dengan pesan `Read-only file system` dan `sha256sum -c` tetap `OK`. |
 
 ## 5. Bukti Pekerjaan
 
@@ -125,19 +114,13 @@ pribadi saya.
 
 ## 6. Informasi GitHub
 
-  -------------------------------------------------------------------------------------------------------------
-  Keterangan                          Isi
-  ----------------------------------- -------------------------------------------------------------------------
-  Repository kelompok                 https://github.com/kel2-so/fileserver-6a
-
-  Repository fork pribadi             https://github.com/dimasdwsrya/fileserver-6a
-
-  Commit hash pekerjaan               `[ISI HASH COMMIT TERBARU]`
-
-  Pesan commit                        `Bukti Anggota 7: monitoring, log, laporan, Docker`
-
-  Status PORTOFOLIO.md                Sudah dibuat
-  -------------------------------------------------------------------------------------------------------------
+| Keterangan | Isi |
+|---|---|
+| Repository kelompok | https://github.com/kel2-so/fileserver-6a |
+| Repository fork pribadi | https://github.com/dimasdwsrya/fileserver-6a |
+| Commit hash pekerjaan | `[ISI HASH COMMIT TERBARU]` |
+| Pesan commit | `Bukti Anggota 7: monitoring, log, laporan, Docker` |
+| Status PORTOFOLIO.md | Sudah dibuat |
 
 ## 7. Kendala dan Penyelesaian
 
