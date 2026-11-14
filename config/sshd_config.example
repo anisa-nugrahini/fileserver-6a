@@ -1,0 +1,4 @@
+# /etc/ssh/sshd_config.d/10-fileserver.conf
+AllowGroups sf_admin sf_operator
+PermitRootLogin no
+MaxAuthTries 3

@@ -1,0 +1,14 @@
+LAPORAN SERVER BERKAS 6A
+Dibuat : 2026-11-06 22:07:07
+
+== Layanan smbd ==
+Status : aktif (PID 57699)
+
+== Backup terakhir ==
+Belum ada arsip backup.
+
+== Hasil uji akses ==
+(belum ada atau tidak dapat dibaca)
+
+== 5 baris terakhir ops.log ==
+(tidak dapat dibaca)

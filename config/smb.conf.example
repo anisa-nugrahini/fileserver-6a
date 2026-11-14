@@ -1,0 +1,10 @@
+
+# --- ditambahkan oleh setup_services.sh ---
+[berkas]
+   path = /srv/fileserver/share
+   read only = yes
+   valid users = @sf_operator, @sf_reader
+   read list = @sf_reader
+   write list = @sf_operator
+   create mask = 0660
+   directory mask = 2770
