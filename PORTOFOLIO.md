@@ -118,7 +118,7 @@ pribadi saya.
 |---|---|
 | Repository kelompok | https://github.com/kel2-so/fileserver-6a |
 | Repository fork pribadi | https://github.com/dimasdwsrya/fileserver-6a |
-| Commit hash pekerjaan | `[ISI HASH COMMIT TERBARU]` |
+| Commit hash pekerjaan | `8f6baef` |
 | Pesan commit | `Bukti Anggota 7: monitoring, log, laporan, Docker` |
 | Status PORTOFOLIO.md | Sudah dibuat |
 
