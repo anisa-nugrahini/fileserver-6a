@@ -1,0 +1,3 @@
+# /etc/sudoers.d/fileserver-admin  (dipasang setup.sh; __ROOT__ diganti path proyek; divalidasi visudo -cf)
+# Hanya grup sf_admin yang boleh menjalankan tindakan admin TERBATAS berikut, tanpa shell root.
+%sf_admin ALL=(root) NOPASSWD: __ROOT__/scripts/check_services.sh, __ROOT__/scripts/backup.sh, /usr/bin/systemctl status smbd, /usr/bin/systemctl status ssh
