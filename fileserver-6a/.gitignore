@@ -1,0 +1,13 @@
+# data & artefak lokal (jangan di-commit)
+output/
+logs/
+*.tar.gz
+*.sha256
+*.log
+*.vdi
+*.vmdk
+*.qcow2
+*.key
+id_rsa*
+.env
+credentials*
