@@ -67,8 +67,6 @@ Menganalisis hasil pengujian untuk memastikan pembatasan hak akses reader berjal
 
 ## 5. Bukti Pekerjaan
 
-Tambahkan screenshot atau tautan bukti yang benar-benar berasal dari pengerjaan proyek.
-
 ### 1. Pemeriksaan Permission Direktori
 
 permission
