@@ -123,7 +123,7 @@ folder bersama dari klien.
 
   Repository fork pribadi             https://github.com/zhcheel/fileserver-6a 
 
-  Commit hash pekerjaan               `[Masukkan hash commit aktual setelah perubahan di-commit dan di-push]`
+  Commit hash pekerjaan               77718d250e9675121996d3f39b63499ad9449fab 
 
   Pesan commit                        `Instalasi dan konfigurasi Samba Server`
 
