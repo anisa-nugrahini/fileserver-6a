@@ -156,52 +156,66 @@ sudo cat /srv/fileserver/logs/ops.log
 
 Seluruh screenshot berikut merupakan bukti pelaksanaan pekerjaan Backup dan Restore pada Ubuntu Server.
 
-## 5. Bukti Pekerjaan
+**1. Pemeriksaan Script Backup dan Restore**
 
-Seluruh screenshot berikut merupakan bukti pelaksanaan pekerjaan Backup dan Restore pada Ubuntu Server.
+Screenshot menunjukkan pemeriksaan keberadaan script backup dan restore pada Ubuntu Server.
 
-**1. Screenshot pemeriksaan script backup dan restore**
+![Pemeriksaan Script Backup dan Restore](evidence/anisa-backup-restore/Pemeriksaan%20script%20backup%20dan%20restore.jpg)
 
-![Pemeriksaan Script](evidence/anisa-backup-restore/Pemeriksaan%20script%20backup%20dan%20restore.jpg)
+**2. Proses Pembuatan Backup**
 
-**2. Screenshot proses pembuatan backup**
+Screenshot menunjukkan proses pencadangan data menggunakan script `fs-backup.sh`.
 
-![Pembuatan Backup](evidence/anisa-backup-restore/Pembuatan%20backup.png)
+![Proses Pembuatan Backup](evidence/anisa-backup-restore/Pembuatan%20backup.png)
 
-**3. Screenshot isi direktori backup**
+**3. Isi Direktori Backup**
 
-![Direktori Backup](evidence/anisa-backup-restore/Direktori%20backup.jpg)
+Screenshot menunjukkan file arsip backup berformat `.tar.gz` beserta file checksum `.sha256` yang dihasilkan.
 
-**4. Screenshot pemeriksaan checksum**
+![Isi Direktori Backup](evidence/anisa-backup-restore/Direktori%20backup.jpg)
+
+**4. Pemeriksaan Checksum**
+
+Screenshot menunjukkan proses pemeriksaan integritas file backup menggunakan SHA-256 dengan hasil verifikasi berhasil (`OK`).
 
 ![Pemeriksaan Checksum](evidence/anisa-backup-restore/Pemeriksaan%20checksum%20yang%20menunjukkan%20hasil%20verifikasi.jpg)
 
-**5. Screenshot proses restore**
+**5. Proses Restore**
+
+Screenshot menunjukkan proses pemulihan data menggunakan script `fs-restore.sh`.
 
 ![Proses Restore](evidence/anisa-backup-restore/Proses%20restore.png)
 
-**6. Screenshot direktori hasil restore**
+**6. Direktori Hasil Restore**
 
-![Direktori Restore](evidence/anisa-backup-restore/Direktori%20restore.png)
+Screenshot menunjukkan direktori tempat penyimpanan hasil pemulihan data.
 
-**7. Screenshot direktori restore tambahan**
+![Direktori Hasil Restore](evidence/anisa-backup-restore/Direktori%20restore.png)
 
-![Direktori Restore 2](evidence/anisa-backup-restore/Direktori%20restore%202.jpg)
+**7. Pemeriksaan Isi Direktori Restore**
 
-**8. Screenshot perbandingan data menggunakan perintah diff**
+Screenshot menunjukkan isi direktori hasil restore setelah proses pemulihan data dilakukan.
 
-![Perbandingan Data Diff](evidence/anisa-backup-restore/Perbandingan%20data%20menggunakan%20perintah%20diff.jpg)
+![Pemeriksaan Direktori Restore](evidence/anisa-backup-restore/Direktori%20restore%202.jpg)
 
-**9. Screenshot pengujian backup rusak**
+**8. Perbandingan Data Menggunakan Perintah Diff**
+
+Screenshot menunjukkan proses perbandingan antara data asli dan data hasil restore menggunakan perintah `diff`.
+
+![Perbandingan Data Menggunakan Diff](evidence/anisa-backup-restore/Perbandingan%20data%20menggunakan%20perintah%20diff.jpg)
+
+**9. Pengujian Backup Rusak**
+
+Screenshot menunjukkan pengujian terhadap file backup yang rusak untuk memastikan sistem menolak proses restore ketika verifikasi checksum gagal.
 
 ![Pengujian Backup Rusak](evidence/anisa-backup-restore/Pengujian%20Backup%20rusak.png)
 
-**10. Screenshot isi file log backup dan restore**
+**10. Log Backup dan Restore**
+
+Screenshot menunjukkan catatan aktivitas backup dan restore serta hasil pengujian pada file log sistem.
 
 ![Log Backup dan Restore](evidence/anisa-backup-restore/Log%20backup%20dan%20restore.png)
 
-
-![Log Backup dan Restore](evidence/09-log-backup-restore.png)
 
 ## 6. Informasi GitHub
 
