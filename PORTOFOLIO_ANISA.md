@@ -225,7 +225,7 @@ Screenshot menunjukkan catatan aktivitas backup dan restore serta hasil pengujia
 | Repository fork pribadi | [https://github.com/anisa-nugrahini/fileserver-6a](https://github.com/anisa-nugrahini/fileserver-6a) |
 | Commit hash pekerjaan | 7ef22bb |
 | Pesan commit | Implementasi Backup dan Restore |
-| Status PORTOFOLIO.md | Sudah Dibuat |
+| Status PORTOFOLIO.md | Sudah Selesai Dibuat |
 
 ## 7. Kendala dan Penyelesaian
 
