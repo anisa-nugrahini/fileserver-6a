@@ -156,39 +156,50 @@ sudo cat /srv/fileserver/logs/ops.log
 
 Seluruh screenshot berikut merupakan bukti pelaksanaan pekerjaan Backup dan Restore pada Ubuntu Server.
 
+## 5. Bukti Pekerjaan
+
+Seluruh screenshot berikut merupakan bukti pelaksanaan pekerjaan Backup dan Restore pada Ubuntu Server.
+
 **1. Screenshot pemeriksaan script backup dan restore**
 
-![Pemeriksaan Script Backup dan Restore](evidence/01-pemeriksaan-script.png)
+![Pemeriksaan Script](evidence/anisa-backup-restore/Pemeriksaan%20script%20backup%20dan%20restore.jpg)
 
 **2. Screenshot proses pembuatan backup**
 
-![Proses Backup](evidence/02-proses-backup.png)
+![Pembuatan Backup](evidence/anisa-backup-restore/Pembuatan%20backup.png)
 
-**3. Screenshot isi direktori backup yang menunjukkan file .tar.gz dan .sha256**
+**3. Screenshot isi direktori backup**
 
-![File Backup](evidence/03-file-backup.png)
+![Direktori Backup](evidence/anisa-backup-restore/Direktori%20backup.jpg)
 
-**4. Screenshot pemeriksaan checksum yang menunjukkan hasil verifikasi**
+**4. Screenshot pemeriksaan checksum**
 
-![Verifikasi Checksum](evidence/04-checksum.png)
+![Pemeriksaan Checksum](evidence/anisa-backup-restore/Pemeriksaan%20checksum%20yang%20menunjukkan%20hasil%20verifikasi.jpg)
 
 **5. Screenshot proses restore**
 
-![Proses Restore](evidence/05-proses-restore.png)
+![Proses Restore](evidence/anisa-backup-restore/Proses%20restore.png)
 
 **6. Screenshot direktori hasil restore**
 
-![Hasil Restore](evidence/06-hasil-restore.png)
+![Direktori Restore](evidence/anisa-backup-restore/Direktori%20restore.png)
 
-**7. Screenshot perbandingan data menggunakan perintah diff**
+**7. Screenshot direktori restore tambahan**
 
-![Perbandingan Data Diff](evidence/07-diff.png)
+![Direktori Restore 2](evidence/anisa-backup-restore/Direktori%20restore%202.jpg)
 
-**8. Screenshot pengujian backup rusak yang menunjukkan kegagalan verifikasi checksum**
+**8. Screenshot perbandingan data menggunakan perintah diff**
 
-![Pengujian Backup Rusak](evidence/08-backup-rusak.png)
+![Perbandingan Data Diff](evidence/anisa-backup-restore/Perbandingan%20data%20menggunakan%20perintah%20diff.jpg)
 
-**9. Screenshot isi file log backup dan restore**
+**9. Screenshot pengujian backup rusak**
+
+![Pengujian Backup Rusak](evidence/anisa-backup-restore/Pengujian%20Backup%20rusak.png)
+
+**10. Screenshot isi file log backup dan restore**
+
+![Log Backup dan Restore](evidence/anisa-backup-restore/Log%20backup%20dan%20restore.png)
+
 
 ![Log Backup dan Restore](evidence/09-log-backup-restore.png)
 
